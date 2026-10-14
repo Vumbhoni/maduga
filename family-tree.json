@@ -1,0 +1,257 @@
+{
+  "title": "Mtititi Family Tree",
+  "subtitle": "Preserving our heritage, one generation at a time",
+  "roots": [
+    {
+      "name": "Hasani George",
+      "gender": "Male"
+    },
+    {
+      "name": "Mhlava N’wangomani",
+      "gender": "Female"
+    }
+  ],
+  "branches": [
+    {
+      "name": "Mbhazima Mtititi",
+      "gender": "Male",
+      "children": [
+        {
+          "name": "Daisy Fumani",
+          "gender": "Female",
+          "children": [
+            {
+              "name": "Willy Fumani",
+              "gender": "Male"
+            },
+            {
+              "name": "Elliot Fumani",
+              "gender": "Male"
+            },
+            {
+              "name": "Obidient Fumani",
+              "gender": "Male"
+            },
+            {
+              "name": "Rhulela Fumani",
+              "gender": "Female"
+            },
+            {
+              "name": "Tsatsawana Fumani",
+              "gender": "Female"
+            }
+          ]
+        },
+        {
+          "name": "Boy Mtititi",
+          "gender": "Male",
+          "children": [
+            {
+              "name": "Tiyani Mtititi",
+              "gender": "Male"
+            },
+            {
+              "name": "Vutlhari Mtititi",
+              "gender": "Female"
+            },
+            {
+              "name": "Vumbhoni Mtititi",
+              "gender": "Female"
+            },
+            {
+              "name": "Mhloti Mtititi",
+              "gender": "Female"
+            },
+            {
+              "name": "Nandi Mtititi",
+              "gender": "Female"
+            }
+          ]
+        },
+        {
+          "name": "Simon Mtititi",
+          "gender": "Male",
+          "children": [
+            {
+              "name": "Amukelani Mtititi",
+              "gender": "Male"
+            },
+            {
+              "name": "Vutomi Mtititi",
+              "gender": "Female"
+            },
+            {
+              "name": "Vunyingi Mtititi",
+              "gender": "Male"
+            },
+            {
+              "name": "Khombani Mtititi",
+              "gender": "Male"
+            },
+            {
+              "name": "Sasekani Mtititi",
+              "gender": "Male"
+            },
+            {
+              "name": "Vuyelo Mtititi",
+              "gender": "Male"
+            },
+            {
+              "name": "Yingiso Mtititi",
+              "gender": "Male"
+            }
+          ]
+        },
+        {
+          "name": "Jonathan Mtititi",
+          "gender": "Male",
+          "children": [
+            {
+              "name": "Nyiko Mtititi",
+              "gender": "Male"
+            },
+            {
+              "name": "Vukulu Mtititi",
+              "gender": "Male"
+            },
+            {
+              "name": "Enelo Mtititi",
+              "gender": "Male"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hlengani Mtititi",
+      "gender": "Male",
+      "children": [
+        {
+          "name": "Rose Mtititi",
+          "gender": "Female",
+          "children": [
+            {
+              "name": "Tintswalo Mashava",
+              "gender": "Female"
+            },
+            {
+              "name": "Jinneth Mashava",
+              "gender": "Female"
+            },
+            {
+              "name": "Given Mashava",
+              "gender": "Male"
+            },
+            {
+              "name": "Amukelani Mashava",
+              "gender": "Female"
+            },
+            {
+              "name": "Mfanelo Mashava",
+              "gender": "Male"
+            }
+          ]
+        },
+        {
+          "name": "Edith Lebethe",
+          "gender": "Female",
+          "children": [
+            {
+              "name": "Koketso Lebethe",
+              "gender": "Male"
+            }
+          ]
+        },
+        {
+          "name": "Lebogang Tshabalala",
+          "gender": "Female",
+          "notes": "Children not yet recorded"
+        }
+      ]
+    },
+    {
+      "name": "Khumbhani Mtititi",
+      "gender": "Female",
+      "children": [
+        {
+          "name": "James Sthitha",
+          "gender": "Male",
+          "children": [
+            {
+              "name": "Patience Sthitha",
+              "gender": "Female"
+            },
+            {
+              "name": "Collen Sthitha",
+              "gender": "Male"
+            },
+            {
+              "name": "Vusi Sthitha",
+              "gender": "Male"
+            },
+            {
+              "name": "Dunisani Sthitha",
+              "gender": "Male"
+            },
+            {
+              "name": "Engetelo Sthitha",
+              "gender": "Male"
+            }
+          ]
+        },
+        {
+          "name": "Grace Sthitha",
+          "gender": "Female",
+          "notes": "Children not yet recorded"
+        },
+        {
+          "name": "Patrick Sthitha",
+          "gender": "Male",
+          "notes": "Children not yet recorded"
+        },
+        {
+          "name": "Michael Sthitha",
+          "gender": "Male",
+          "notes": "Children not yet recorded"
+        },
+        {
+          "name": "Languta Sthitha",
+          "gender": "Male",
+          "notes": "Children not yet recorded"
+        },
+        {
+          "name": "Mashawu Sthitha",
+          "gender": "Female",
+          "notes": "Children not yet recorded"
+        },
+        {
+          "name": "Clara Sthitha",
+          "gender": "Female",
+          "notes": "Relationship within this branch recorded; exact parent link to confirm"
+        }
+      ]
+    },
+    {
+      "name": "Mthavini Mtititi",
+      "gender": "Female",
+      "children": [
+        {
+          "name": "Tambudzani",
+          "gender": "Female"
+        }
+      ]
+    }
+  ],
+  "pendingRelationshipsToConfirm": [
+    "Nakulori Macale",
+    "Goodman Macale",
+    "Miyelani Macale",
+    "Tshepo Macale",
+    "Children of Lebogang Tshabalala",
+    "Children of Grace Sthitha",
+    "Children of Patrick Sthitha",
+    "Children of Michael Sthitha",
+    "Children of Languta Sthitha",
+    "Children of Mashawu Sthitha"
+  ]
+}
