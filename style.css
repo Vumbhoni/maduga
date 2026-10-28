@@ -46,3 +46,24 @@ footer{text-align:center;padding:24px;color:var(--muted);font:12px Arial,sans-se
 @media(max-width:800px){.branches{grid-template-columns:repeat(2,minmax(150px,1fr))}.toolbar{position:static}.tree{min-width:620px}.pending ul{columns:1}}
 @media(max-width:520px){main{padding:14px 10px 35px}.branches{grid-template-columns:1fr}.tree{min-width:0}.tree-wrap{overflow:visible}.root-pair{flex-direction:column;width:100%;max-width:330px}.person.root{min-width:0;max-width:none;width:100%}.branch{padding:10px}.toolbar{gap:7px}.toolbar button{flex:1 1 40%}input[type=search]{max-width:none;flex-basis:100%}}
 @media print{body{background:white;color:black;font-size:10pt}header{background:white!important;color:black;padding:15px;border-bottom:2px solid #777}header p,.kicker{color:#444}.toolbar,.branch-toggle,footer{display:none!important}main{max-width:none;padding:8px}.tree-wrap{overflow:visible}.tree{min-width:0}.branches{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.branch{break-inside:avoid;box-shadow:none}.person{box-shadow:none;break-inside:avoid;border-color:#aaa;padding:7px}.person.root{background:#eee!important}.branch-head .person,.children .person{background:white!important}.children{gap:4px;padding-top:6px;margin-top:6px}.children .person .name{font-size:10pt}.pending,.notes{break-inside:avoid;background:white}.pending ul{columns:2}.hide{display:initial!important}.generation-label{color:#333}}
+
+/* Admin features */
+.admin-panel{margin:0 0 22px;border:1px solid #d8bd91;border-radius:15px;padding:18px;background:#fff7e8;box-shadow:var(--shadow)}
+.admin-panel h2{margin:0 0 7px;font-size:22px}
+.admin-panel p{margin:6px 0;color:#65513d;font:14px/1.55 Arial,sans-serif}
+button.danger{background:#fff0ec;border-color:#d6a59b;color:#7e2e23}
+.admin-notice{min-height:1.2em;margin-top:10px!important;font:600 13px Arial,sans-serif!important;color:#42623d!important}
+.admin-notice.error,.form-error{color:#9b3026!important}
+.add-descendant{font:600 11px Arial,sans-serif;padding:7px 9px;width:100%;background:#edf3e8;border-color:#b7c9ac;color:#36552f}
+.person-dialog{border:1px solid #d9c7ad;border-radius:18px;padding:0;width:min(92vw,460px);box-shadow:0 20px 70px rgba(0,0,0,.25);color:var(--ink);background:var(--paper)}
+.person-dialog::backdrop{background:rgba(38,27,19,.48);backdrop-filter:blur(2px)}
+.person-dialog form{padding:22px;display:flex;flex-direction:column;gap:9px}
+.person-dialog h2{margin:0;font-size:24px}
+.parent-description{margin:0 0 6px;color:var(--muted);font:13px/1.5 Arial,sans-serif}
+.person-dialog label{font:600 13px Arial,sans-serif;color:var(--brown);margin-top:3px}
+.person-dialog input,.person-dialog select,.person-dialog textarea{width:100%;border:1px solid #cbb79c;border-radius:9px;padding:11px;background:#fffdf8;color:var(--ink);font:14px Arial,sans-serif}
+.person-dialog textarea{resize:vertical}
+.dialog-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}
+.dialog-actions button{flex:1}
+.form-error{font:12px Arial,sans-serif;margin:0;min-height:0}
+@media print{.admin-panel,.add-descendant,.person-dialog{display:none!important}}

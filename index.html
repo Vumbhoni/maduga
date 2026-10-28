@@ -19,8 +19,16 @@
     <button id="clear" type="button">Clear search</button>
     <button id="expand" type="button">Expand all</button>
     <button id="collapse" type="button">Collapse all</button>
+    <button id="adminToggle" type="button" aria-pressed="false">Admin mode: Off</button>
+    <button id="exportJson" type="button" hidden>Export updated JSON</button>
     <button id="print" class="primary" type="button">Print / Save as PDF</button>
   </div>
+  <section class="admin-panel" id="adminPanel" hidden aria-labelledby="adminHeading">
+    <h2 id="adminHeading">Family tree admin</h2>
+    <p>Turn on Admin mode, then choose <strong>Add descendant</strong> under the correct parent. Changes are saved in this browser. Export the updated JSON to back up changes or move them to another device.</p>
+    <button id="resetLocal" type="button" class="danger">Discard browser changes and reload original JSON</button>
+    <p class="admin-notice" id="adminNotice" role="status"></p>
+  </section>
   <div class="summary" id="summary"></div>
   <section class="tree-section">
     <div class="tree-wrap"><div class="tree" id="familyTree" aria-live="polite"></div></div>
@@ -33,11 +41,28 @@
   </section>
   <section class="notes">
     <h2>About this family tree</h2>
-    <p>This interactive version reads family names and relationships from <code>family-tree.json</code>. Edit that file to update the family information.</p>
+    <p>This interactive version reads names and relationships from <code>family-tree.json</code>. Admin additions are saved in this browser; export the updated JSON to keep a separate data file or move changes to another device.</p>
     <p><strong>Tip:</strong> Use the search box to find a relative, expand or collapse branches to explore the tree, or choose <em>Print / Save as PDF</em> for a paper copy.</p>
   </section>
 </main>
 <footer>Mtititi Family Tree · Preserving our heritage for future generations</footer>
+<dialog id="addPersonDialog" class="person-dialog">
+  <form id="addPersonForm">
+    <h2 id="addPersonTitle">Add descendant</h2>
+    <p id="parentDescription" class="parent-description"></p>
+    <label for="newPersonName">Full name *</label>
+    <input id="newPersonName" name="name" type="text" maxlength="120" required placeholder="Enter full name">
+    <label for="newPersonGender">Gender</label>
+    <select id="newPersonGender" name="gender">
+      <option value="">Not specified</option><option value="Male">Male</option>
+      <option value="Female">Female</option><option value="Other">Other</option>
+    </select>
+    <label for="newPersonNotes">Notes (optional)</label>
+    <textarea id="newPersonNotes" name="notes" rows="2" maxlength="300" placeholder="Optional note"></textarea>
+    <div class="dialog-actions"><button type="button" id="cancelAdd">Cancel</button><button type="submit" class="primary">Add to family tree</button></div>
+    <p id="formError" class="form-error" role="alert"></p>
+  </form>
+</dialog>
 <script src="script.js" defer></script>
 </body>
 </html>
